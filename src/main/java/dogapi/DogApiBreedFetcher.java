@@ -9,11 +9,7 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.util.*;
 
-/**
- * BreedFetcher implementation that relies on the dog.ceo API.
- * Note that all failures get reported as BreedNotFoundException
- * exceptions to align with the requirements of the BreedFetcher interface.
- */
+
 public class DogApiBreedFetcher implements BreedFetcher {
     private final OkHttpClient client = new OkHttpClient();
 
